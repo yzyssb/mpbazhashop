@@ -1,0 +1,11 @@
+/**app.wxss**/
+@import 'style/weui.wxss';
+
+view, black {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family:PingFangSC-Regular, PingFangSC-Medium, sans-serif, "Microsoft YaHei", Arial, Segoe UI, helvetica;
+  letter-spacing: 2rpx;
+
+}

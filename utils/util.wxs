@@ -1,0 +1,14 @@
+function toFix(value) {
+  var value = parseFloat(value);
+  return value.toFixed(1)  //此处2为保留两位小数
+};
+function toSubstring(val) {
+  var value = val ? val : '';
+  return value.length > 7 ? (value.substring(0, 7) + '...') : value
+};
+module.exports = {
+  toFix: toFix,
+  toSubstring: toSubstring
+}
+
+

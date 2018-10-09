@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/homePage/homePage",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "#fff",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "路上创客V",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#00954d",
+    "backgroundColor": "#ffffff",
+    "bordeStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/homePage/homePage",
+        "text": "首页"
+    
+      },
+        {
+          "pagePath": "pages/test/test",
+          "text": "测试"
+         
+        }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}
